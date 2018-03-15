@@ -1,0 +1,38 @@
+UE4 game:
+	Aim:
+		-- Implementation of different concepts and features
+		-- Fully working demo with free assets from web/assetstores/marketplaces
+		-- Min. 10 minutes play time
+		-- Design friendly
+		-- Learn how to do things from tries and failures (there will be many failures so implement everything to be easily changed, moved, removed or improved)
+		-- YEAH, I KNOW THAT IT IS RPG-LIKE BUT I DON'T WANT TO MAKE WHOLE GAME!
+
+	Specs:
+		-- TPP
+		-- Fantasy (ha ha ha)
+		-- Collision-based weapon system
+		-- Spells
+		-- Skills (longer duration of a spell, increased damage or armor etc.)
+
+	Features:
+		-- Movement system (maybe UE movement is good enough?)
+		-- Camera system (maybe UE camera is good enough? Locking on enemies)
+		-- Stats systems (every object should be able to define some stats)
+		-- Player progression (unlocking quests, skills, world map places)
+		-- Dialogue system (with camera transitions; dialogue choices; unlocking lines depending on world state (quests or events) or player stats (charisma for example))
+		-- Class system (warrior, rogue, mage; enum?)
+		-- Items system (item stats; item groups (normal, special, legendary); maybe integrated with class system (and player progression (XP) or stats))
+		-- Weapon system (melee, ranged; based on items)
+		-- Spells system (scrolls, skills? maybe both; based on items if scrolls are used)
+		-- Skills system (buyable? if so then it would be nice to have this based on items; integrated with class system (and player progression (XP) or stats))
+		-- Inventory system (integrated with items)
+		-- Equipment system (integrated with items and inventory system (one way ticket))
+		-- Shops system (integrated with dialogues and items)
+		-- Enemies/AI
+		-- Dungeons/arenas system (integrated with quests)
+		-- Quests system (integrated with dialogues)
+		-- Loot system (from enemies, boxes and other things)
+		-- Cutscenes system (maybe derived from dialogues? or at least with common parts? or just cutscene1->dialogue1->cutscene2/cutscene3 (depending on choice))
+		-- World map system (integrated with player progression)
+		-- Seamless traveling the world
+		-- Fast travel system (integrated with world map)
